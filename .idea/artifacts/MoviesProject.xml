@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MoviesProject">
+    <output-path>$PROJECT_DIR$/out/artifacts/MoviesProject</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="Movies.Movies" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="MoviesProject.jar">
+        <element id="module-output" name="MoviesProject" />
+      </element>
+      <element id="module-source" name="MoviesProject" />
+      <element id="artifact" artifact-name="MoviesProject:jar" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="663.0" prefWidth="1143.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Movies.controllers.GenreController">
+   <children>
+      <Pane prefHeight="663.0" prefWidth="194.0" style="-fx-background-color: #1B222D;">
+         <children>
+            <JFXButton graphicTextGap="10.0" prefHeight="51.0" prefWidth="194.0" style="-fx-background-color: #1B222D;" text="| Филми" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="153.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/movieshome.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <GridPane layoutY="50.0" prefHeight="410.0" prefWidth="194.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXButton fx:id="btn1" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Филми" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/moviesicon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn2" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #1B222D; -fx-border-color: #242f3f;" text="Жанрове" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/moviesicon2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn3" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Актьори" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/icons8_user_groups_98px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn4" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Наемане" textFill="WHITE" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/moviesicon5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn5" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Настройки" textFill="WHITE" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/icons8_services_98px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn_home" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="61.0" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Начало" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/icons8_home_98px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Label fx:id="lbl_title" layoutX="881.0" layoutY="614.0" prefHeight="32.0" prefWidth="254.0" style="-fx-font-family: arial;" stylesheets="@../css/gradient_pane.css" text="Всички Жанрове" textFill="#242f3f">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Label>
+      <Pane fx:id="top_pane" layoutX="194.0" prefHeight="51.0" prefWidth="949.0" stylesheets="@../css/gradient_pane.css">
+         <children>
+            <Label fx:id="showTime" layoutX="791.0" layoutY="13.0" onInputMethodTextChanged="#CatgTimeDisplay" prefHeight="17.0" prefWidth="95.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_close" contentDisplay="GRAPHIC_ONLY" layoutX="903.0" layoutY="13.0" mnemonicParsing="false" onAction="#GenresMenu" onMouseClicked="#GenresMenu" prefHeight="20.0" prefWidth="20.0" style="-fx-background-radius: 5em; -fx-background-color: #ffffff;" text="Затвори" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/icons8_delete_sign_98px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="228.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../css/images/moviesicon.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="261.0" layoutY="627.0" prefHeight="9.0" prefWidth="614.0" />
+      <GridPane layoutX="237.0" layoutY="89.0" prefHeight="516.0" prefWidth="880.0">
+        <columnConstraints>
+          <ColumnConstraints fx:id="Cat_grid" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton fx:id="btn_Genre1" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" onAction="#GenresAction" onMouseClicked="#GenresAction" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Анимация">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/animation.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre4" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="10.0" layoutY="16.0" onAction="#GenresAction4" onMouseClicked="#GenresAction4" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Екшън" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/action.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre2" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="273.0" layoutY="16.0" onAction="#GenresAction2" onMouseClicked="#GenresAction2" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Комедия" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/comedy.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre5" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="10.0" layoutY="193.0" onAction="#GenresAction5" onMouseClicked="#GenresAction5" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Крими" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/crime.jfif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre3" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="273.0" layoutY="193.0" onAction="#GenresAction3" onMouseClicked="#GenresAction3" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Приключенски" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/adventure.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre7" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="10.0" layoutY="370.0" onAction="#GenresAction7" onMouseClicked="#GenresAction7" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Драма" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/drama.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre8" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="535.0" layoutY="16.0" onAction="#GenresAction8" onMouseClicked="#GenresAction8" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Ужаси" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/horror.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre6" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="535.0" layoutY="193.0" onAction="#GenresAction6" onMouseClicked="#GenresAction6" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Романтичен" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/romantic.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btn_Genre9" alignment="CENTER" contentDisplay="TOP" graphicTextGap="10.0" layoutX="273.0" layoutY="370.0" onAction="#GenresAction9" onMouseClicked="#GenresAction9" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.5em;" stylesheets="@../css/gradient_pane.css" text="Фентъзи" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="160.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/fantasy.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

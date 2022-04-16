@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MoviesProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MoviesProject_jar</output-path>
+    <root id="archive" name="MoviesProject.jar">
+      <element id="module-output" name="MoviesProject" />
+    </root>
+  </artifact>
+</component>

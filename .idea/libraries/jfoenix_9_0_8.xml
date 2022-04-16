@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jfoenix-9.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../JavaSDKs/jfoenix-9.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../JavaSDKs/mysql-connector-java-8.0.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../JavaSDKs/protobuf-java-3.11.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../JavaSDKs/scenebuilder-8.5.0-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

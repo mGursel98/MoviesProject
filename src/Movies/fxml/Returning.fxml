@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="663.0" prefWidth="1143.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Movies.controllers.ReturningController">
+   <children>
+      <Pane prefHeight="663.0" prefWidth="194.0" style="-fx-background-color: #1B222D;">
+         <children>
+            <JFXButton graphicTextGap="10.0" prefHeight="51.0" prefWidth="194.0" style="-fx-background-color: #1B222D;" text="| Филми" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/movieshome.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <GridPane layoutY="50.0" prefHeight="410.0" prefWidth="194.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXButton fx:id="btn1" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #1B222D; -fx-border-color: #242f3f;" text="Филми" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/moviesicon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn2" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Жанрове" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/moviesicon2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn3" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-border: #242f3f; -fx-background-color: #242f3f;" text="Актьори" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/icons8_user_groups_98px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn4" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Наемане" textFill="WHITE" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/moviesicon5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn5" alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Настройки" textFill="WHITE" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/icons8_services_98px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btn_home" alignment="BASELINE_LEFT" graphicTextGap="20.0" layoutX="10.0" layoutY="61.0" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="63.0" prefWidth="193.0" style="-fx-background-color: #242f3f;" text="Начало" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../css/images/icons8_home_98px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Label fx:id="lbl_title" layoutX="956.0" layoutY="614.0" style="-fx-font-family: arial;" stylesheets="@../css/gradient_pane.css" text="Returning" textFill="#242f3f">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Label>
+      <Pane fx:id="top_green" layoutX="194.0" prefHeight="51.0" prefWidth="949.0" stylesheets="@../css/gradient_pane.css">
+         <children>
+            <Label fx:id="showTime" layoutX="791.0" layoutY="13.0" onInputMethodTextChanged="#TimeDisplay" prefHeight="17.0" prefWidth="95.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_close" contentDisplay="GRAPHIC_ONLY" layoutX="903.0" layoutY="13.0" mnemonicParsing="false" onAction="#ReturningMenu" onMouseClicked="#ReturningMenu" prefHeight="20.0" prefWidth="20.0" style="-fx-background-radius: 5em; -fx-background-color: #ffffff;" text="Затвори" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../css/images/icons8_delete_sign_98px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="228.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../css/images/moviesicon6.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="286.0" layoutY="623.0" prefHeight="12.0" prefWidth="651.0" />
+      <GridPane layoutX="264.0" layoutY="180.0" prefHeight="228.0" prefWidth="334.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="182.0" text="Borrow id">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="22.0" prefHeight="17.0" prefWidth="182.0" text="Movie id" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXDatePicker fx:id="txt_date" defaultColor="#2a86e7" style="-fx-font-size: 16;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <JFXTextField fx:id="txt_borrow_id" GridPane.columnIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="10.0" layoutY="83.0" prefHeight="17.0" prefWidth="182.0" text="Дата на връщане" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="txt_movie_id" layoutX="10.0" layoutY="83.0" prefHeight="17.0" prefWidth="182.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <GridPane layoutX="717.0" layoutY="180.0" prefHeight="228.0" prefWidth="334.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="182.0" text="Actor id">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txt_actor_id" layoutX="177.0" layoutY="77.0" GridPane.columnIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="10.0" layoutY="26.0" prefHeight="17.0" prefWidth="182.0" text="Time" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txt_time" layoutX="177.0" layoutY="20.0" onInputMethodTextChanged="#TimeDisplay" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="10.0" layoutY="26.0" prefHeight="17.0" prefWidth="182.0" text="Movie Title" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="txt_movie_name" layoutX="10.0" layoutY="83.0" prefHeight="17.0" prefWidth="182.0" text="-" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Separator layoutX="261.0" layoutY="438.0" prefHeight="12.0" prefWidth="808.0" />
+      <Label fx:id="lbl_title1" layoutX="261.0" layoutY="84.0" prefHeight="32.0" prefWidth="542.0" style="-fx-font-family: arial;" stylesheets="@../css/gradient_pane.css" text="Returning movie" textFill="#242f3f">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btn_save" layoutX="686.0" layoutY="500.0" onAction="#ReturningAction" onMouseClicked="#ReturningAction" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 5em;" stylesheets="@../css/gradient_pane.css" text="Запази" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btn_cancel" layoutX="897.0" layoutY="500.0" onAction="#ReturningAction" onMouseClicked="#ReturningAction" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 5em;" stylesheets="@../css/gradient_pane.css" text="Отмени" textFill="#0086d3">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lblStatus" layoutX="690.0" layoutY="456.0" prefHeight="27.0" prefWidth="378.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btn_details" layoutX="480.0" layoutY="500.0" onAction="#ReturningAction" onMouseClicked="#ReturningAction" prefHeight="30.0" prefWidth="170.0" style="-fx-background-radius: 5em;" stylesheets="@../css/gradient_pane.css" text="Детайли" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

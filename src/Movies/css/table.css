@@ -1,0 +1,71 @@
+
+.table-view, .tree-table-view {
+    /* Constants used throughout the tableview. */
+    -fx-table-header-border-color: transparent;
+    -fx-table-cell-border-color: -fx-box-border; /* Horizontal Lines*/
+    -fx-background-color: transparent;
+}
+
+/* The column header row is made up of a number of column-header, one for each
+   TableColumn, and a 'filler' area that extends from the right-most column
+   to the edge of the tableview, or up to the 'column control' button. #9aa6cc */
+.table-view .filler, .tree-table-view .filler, .table-view .column-header,
+.tree-table-view .column-header {
+    -fx-size: 30;
+    -fx-border-style: null;
+    -fx-border-width: 0 0 2 0;
+    -fx-background-color: transparent;
+    -fx-text-color: #ffffff;
+    -fx-background-color:  #090f21;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-pref-width: 8em;
+    -fx-font-size: 10pt ;
+}
+
+.table-view .show-hide-columns-button, .tree-table-view .show-hide-columns-button
+{
+    -fx-background-color: transparent;
+    -fx-pref-width: 8em;
+    -fx-font-size: 10pt ;
+}
+
+.table-view .column-header .label, .table-view .filler .label,
+.table-view .column-drag-header .label, .tree-table-view .column-header .label,
+.tree-table-view .filler .label, .tree-table-view .column-drag-header .label
+{
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-pref-width: 8em;
+    -fx-font-size: 10pt ;
+}
+
+
+.table-view .column-header-background, .tree-table-view .column-header-background
+{
+    -fx-background-color: transparent;
+    -fx-pref-width: 8em;
+    -fx-font-size: 10pt ;
+}
+
+.table-row-cell, .tree-table-row-cell {
+    -fx-cell-size: 30px;
+    -fx-pref-width: 8em;
+    -fx-font-size: 10pt ;
+}
+
+.table-cell {
+    -fx-border-color: transparent ; /* Vertical Lines*/
+    -fx-border-width: 1;
+    -fx-border-collapse: collapse;
+    -fx-pref-width: 8em;
+    -fx-font-size: 10pt ;  
+}
+
+.jfx-hamburger-icon {
+    -fx-spacing: 7;
+}
+.jfx-hamburger-icon StackPane{
+    -fx-background-color: -fx-secondary;
+}
